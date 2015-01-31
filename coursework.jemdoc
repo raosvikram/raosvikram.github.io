@@ -1,0 +1,17 @@
+# jemdoc: menu{MENU}{coursework.html}, nofooter
+= Coursework
+
+== Graduate Coursework
+=== Machine Learning
+- Natural Language Processing and Social Interaction
+- Matrix Computations
+- Advanced Topic Modeling
+- Machine Leaning Theory (Audit)
+- Statistical Methods I
+- *Convex Analysis*
+
+=== Other
+- *Cloud Computing*
+- Advanced Programming Languages
+
+(*current*)
