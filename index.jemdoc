@@ -8,18 +8,31 @@
 vikram AT cs.cornell.edu
 
 === Office
-411 Gates Hall, \n
-Cornell University, \n
-Ithaca, NY, 14853.
++411 Gates Hall, Cornell University.+
+\n
+Twitter, San Francisco, CA.
+
+=== Social Media
+{{
+<a target="_blank" href="http://www.twitter.com/raosvikram"> <img src="http://static.viewbook.com/images/social_icons/twitter_16.png"/> </a>
+<a target="_blank" href="http://www.linkedin.com/pub/vikram-rao-sudarshan/27/a92/1a8/en"> <img src="http://static.viewbook.com/images/social_icons/linkedin_16.png"/> </a>
+<a target="_blank" href="http://www.facebook.com/rao.s.vikram"> <img src="http://static.viewbook.com/images/social_icons/facebook_16.png"/> </a>
+}}
+
 ~~~
 
 == About me
 
-I am a second year PhD student in the Department of [http://www.cs.cornell.edu
-Computer Science] at [http://www.cornell.edu Cornell University] and am
-interested in Machine Learning and Natural Language Processing.
 
-Before coming to Cornell, I spent four wonderful years as a
++ I am a second year PhD student in the Department of [http://www.cs.cornell.edu
+Computer Science] at [http://www.cornell.edu Cornell University].+
+~~~
+{}
+I graduated from Cornell with an MS degree and have joined Twitter as a Data
+Scientist.
+~~~
+
+Before joining Cornell, I spent four wonderful years as a
 [http://www.cse.iitm.ac.in Computer Science] undergraduate at
 [http://www.iitm.ac.in IIT Madras] where I was generously supported by the
 [http://www.adityabirlascholars.net Aditya Birla Scholarship] and
@@ -27,9 +40,18 @@ Before coming to Cornell, I spent four wonderful years as a
 Before that, I spent many carefree years in the beautiful south-Indian city of
 Hyderabad.
 
-I spent Summer 2014 at [http://www.twitter.com Twitter], Summer 2012 at
-[http://research.microsoft.com/en-us/labs/redmond/ Microsoft Research, Redmond]
-and Summer 2011 at [http://www.yahoo.com Yahoo, Bangalore].
+I've spent summers at [http://www.twitter.com Twitter] as a graduate student and
+at [http://research.microsoft.com/en-us/labs/redmond/ Microsoft Research,
+Redmond] and [http://www.yahoo.com Yahoo, Bangalore] as an undergraduate.
+
+# ~~~
+# {}{raw}
+# You can find me online at
+# <a target="_blank" href="http://www.facebook.com/rao.s.vikram"> <img src="http://static.viewbook.com/images/social_icons/facebook_16.png"/> </a>
+# <a target="_blank" href="http://www.linkedin.com/pub/vikram-rao-sudarshan/27/a92/1a8/en"> <img src="http://static.viewbook.com/images/social_icons/linkedin_16.png"/> </a>
+# <a target="_blank" href="http://www.twitter.com/raosvikram"> <img src="http://static.viewbook.com/images/social_icons/twitter_16.png"/> </a>
+# .
+# ~~~
 
 
 == Research Interests
@@ -38,14 +60,27 @@ and Summer 2011 at [http://www.yahoo.com Yahoo, Bangalore].
 
 
 == Teaching
-*Current* -- TA for [http://www.cs.cornell.edu/Courses/cs4786/2015sp/ CS4786,
-Machine Learning for Data Science] \n
-Fall 2014 -- Head TA for [http://www.cs.cornell.edu/courses/cs2800/2014fa/ CS2800,
-Discrete Structures] \n
-Spring 2014 -- TA for [http://www.cs.cornell.edu/courses/cs1112/2014sp/ CS1112,
-Introduction to Computing using MATLAB] \n
-Fall 2013 -- Co-head TA for [http://www.cs.cornell.edu/courses/CS4700/2013fa/ CS4700,
-Foundations of Artificial Intelligence]
+# Spring 2015 -- TA for [http://www.cs.cornell.edu/Courses/cs4786/2015sp/ Machine
+# Learning for Data Science, CS4786] \n
+# Fall 2014 -- Head TA for [http://www.cs.cornell.edu/courses/cs2800/2014fa/
+# Discrete Structures, CS2800] \n
+# Spring 2014 -- TA for [http://www.cs.cornell.edu/courses/cs1112/2014sp/
+# Introduction to Computing using MATLAB, CS1112] \n
+# Fall 2013 -- Co-head TA for [http://www.cs.cornell.edu/courses/CS4700/2013fa/
+# Foundations of Artificial Intelligence, CS4700]
+
+~~~
+{}{table}{Teaching}
+*Semester* | *Position* | *Course* ||
+S-2015 | TA | [http://www.cs.cornell.edu/Courses/cs4786/2015sp/
+Machine Learning for Data Science, CS4786] ||
+F-2014 | Head TA | [http://www.cs.cornell.edu/courses/cs2800/2014fa/
+Discrete Structures, CS2800] ||
+S-2014 | TA | [http://www.cs.cornell.edu/courses/cs1112/2014sp/
+Introduction to Computing using MATLAB, CS1112] ||
+F-2013 | Co-head TA | [http://www.cs.cornell.edu/courses/CS4700/2013fa/
+Foundations of Artificial Intelligence, CS4700]
+~~~
 
 
 # # Email: ReCaptcha
@@ -55,14 +90,14 @@ Foundations of Artificial Intelligence]
 # ~~~
 
 
-# Motigo webstats.
-~~~
-{}{raw}
-<!-- Begin Motigo Webstats counter code -->
-<div id="counter">
-<a id="mws4936753" href="http://webstats.motigo.com/">
-<img width="80" height="15" border="0" alt="Free counter and web stats" src="http://m1.webstats.motigo.com/n80x15.gif?id=AEtUMQcs_xE6cchjNxmaPAfvP3jw" /></a>
-<script src="http://m1.webstats.motigo.com/c.js?id=4936753&amp;lang=EN&amp;i=25" type="text/javascript"></script>
-</div>
-<!-- End Motigo Webstats counter code -->
-~~~
+# # Motigo webstats.
+# ~~~
+# {}{raw}
+# <!-- Begin Motigo Webstats counter code -->
+# <div id="counter">
+# <a id="mws4936753" href="http://webstats.motigo.com/">
+# <img width="80" height="15" border="0" alt="Free counter and web stats" src="http://m1.webstats.motigo.com/n80x15.gif?id=AEtUMQcs_xE6cchjNxmaPAfvP3jw" /></a>
+# <script src="http://m1.webstats.motigo.com/c.js?id=4936753&amp;lang=EN&amp;i=25" type="text/javascript"></script>
+# </div>
+# <!-- End Motigo Webstats counter code -->
+# ~~~
