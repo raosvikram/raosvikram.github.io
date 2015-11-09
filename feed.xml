@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Vikram Rao</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://raosvikram.github.io//feed.xml" />
-<link rel="alternate" type="text/html" href="http://raosvikram.github.io/" />
-<updated>2015-11-08T18:02:54-08:00</updated>
-<id>http://raosvikram.github.io//</id>
+<link rel="self" type="application/atom+xml" href="http://raosvikram.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://raosvikram.github.io" />
+<updated>2015-11-08T18:08:49-08:00</updated>
+<id>http://raosvikram.github.io/</id>
 <author>
   <name>Vikram Rao</name>
-  <uri>http://raosvikram.github.io//</uri>
+  <uri>http://raosvikram.github.io/</uri>
   
 </author>
 
@@ -17,13 +17,13 @@
 
 <entry>
   <title type="html"><![CDATA[Road trip]]></title>
-  <link rel="alternate" type="text/html" href="http://raosvikram.github.io//roadtrip/" />
-  <id>http://raosvikram.github.io//roadtrip</id>
+  <link rel="alternate" type="text/html" href="http://raosvikram.github.io/roadtrip/" />
+  <id>http://raosvikram.github.io/roadtrip</id>
   <published>2015-11-08T00:00:00-08:00</published>
   <updated>2015-11-08T00:00:00-08:00</updated>
   <author>
     <name>Vikram Rao</name>
-    <uri>http://raosvikram.github.io/</uri>
+    <uri>http://raosvikram.github.io</uri>
     
   </author>
   <content type="html">
@@ -69,27 +69,27 @@ recommendations on good places to stay at each of the parks I went to:&lt;/p&gt;
 deserts with natural rock formations.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;http://raosvikram.github.io//images/road_trip_sample/glacier-grinnel-lake.jpg&quot; /&gt;
+&lt;img src=&quot;http://raosvikram.github.io/images/road_trip_sample/glacier-grinnel-lake.jpg&quot; /&gt;
 	&lt;figcaption&gt;Grinnel Lake, Glacier National Park&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;http://raosvikram.github.io//images/road_trip_sample/bryce-canyon-rainbow.jpg&quot; /&gt;
+&lt;img src=&quot;http://raosvikram.github.io/images/road_trip_sample/bryce-canyon-rainbow.jpg&quot; /&gt;
 	&lt;figcaption&gt;Rainbow, on the way to Zion from Bryce Canyon National Park&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;http://raosvikram.github.io//images/road_trip_sample/death-valley-car.jpg&quot; /&gt;
+&lt;img src=&quot;http://raosvikram.github.io/images/road_trip_sample/death-valley-car.jpg&quot; /&gt;
 	&lt;figcaption&gt;Death Valley National Park&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;http://raosvikram.github.io//images/road_trip_sample/death-valley-dune.jpg&quot; /&gt;
+&lt;img src=&quot;http://raosvikram.github.io/images/road_trip_sample/death-valley-dune.jpg&quot; /&gt;
 	&lt;figcaption&gt;Sand dunes through a crooked tree, Death Valley National Park&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;http://raosvikram.github.io//images/road_trip_sample/sequoia-bear.jpg&quot; /&gt;
+&lt;img src=&quot;http://raosvikram.github.io/images/road_trip_sample/sequoia-bear.jpg&quot; /&gt;
 	&lt;figcaption&gt;Napping bear, Sequoia National Park&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -101,17 +101,17 @@ deserts with natural rock formations.&lt;/p&gt;
 
 &lt;link rel=&quot;stylesheet&quot; href=&quot;http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css&quot; /&gt;
 
-&lt;script src=&quot;http://raosvikram.github.io//assets/road_trip/lib/d3.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;http://raosvikram.github.io/assets/road_trip/lib/d3.min.js&quot;&gt;&lt;/script&gt;
 
-&lt;script src=&quot;http://raosvikram.github.io//assets/road_trip/lib/c3.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;http://raosvikram.github.io/assets/road_trip/lib/c3.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js&quot;&gt;&lt;/script&gt;
 
-&lt;script src=&quot;http://raosvikram.github.io//assets/road_trip/lib/leaflet-providers.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;http://raosvikram.github.io/assets/road_trip/lib/leaflet-providers.js&quot;&gt;&lt;/script&gt;
 
-&lt;script src=&quot;http://raosvikram.github.io//assets/road_trip/lib/douglas_peucker.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;http://raosvikram.github.io/assets/road_trip/lib/douglas_peucker.js&quot;&gt;&lt;/script&gt;
 
-&lt;script src=&quot;http://raosvikram.github.io//assets/road_trip/lib/queue.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;http://raosvikram.github.io/assets/road_trip/lib/queue.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script&gt;
 
@@ -137,8 +137,8 @@ deserts with natural rock formations.&lt;/p&gt;
     function main() {
       var map = getMap();
 
-      var locationsFile = &quot;http://raosvikram.github.io//assets/road_trip/data/road_trip_final.csv&quot;;
-      var stopsFile = &quot;http://raosvikram.github.io//assets/road_trip/data/stops.json&quot;;
+      var locationsFile = &quot;http://raosvikram.github.io/assets/road_trip/data/road_trip_final.csv&quot;;
+      var stopsFile = &quot;http://raosvikram.github.io/assets/road_trip/data/stops.json&quot;;
       queue()
       .defer(d3.csv, locationsFile)
       .defer(d3.json, stopsFile)
@@ -165,7 +165,7 @@ deserts with natural rock formations.&lt;/p&gt;
 &lt;script&gt; main(); &lt;/script&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://raosvikram.github.io//roadtrip/&quot;&gt;Road trip&lt;/a&gt; was originally published by Vikram Rao at &lt;a href=&quot;http://raosvikram.github.io/&quot;&gt;Vikram Rao&lt;/a&gt; on November 08, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://raosvikram.github.io/roadtrip/&quot;&gt;Road trip&lt;/a&gt; was originally published by Vikram Rao at &lt;a href=&quot;http://raosvikram.github.io&quot;&gt;Vikram Rao&lt;/a&gt; on November 08, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -174,13 +174,13 @@ deserts with natural rock formations.&lt;/p&gt;
 
 <entry>
   <title type="html"><![CDATA[Generating Carnatic lyrics]]></title>
-  <link rel="alternate" type="text/html" href="http://raosvikram.github.io//tyagaraga/" />
-  <id>http://raosvikram.github.io//tyagaraga</id>
+  <link rel="alternate" type="text/html" href="http://raosvikram.github.io/tyagaraga/" />
+  <id>http://raosvikram.github.io/tyagaraga</id>
   <published>2015-11-07T00:00:00-08:00</published>
   <updated>2015-11-07T00:00:00-08:00</updated>
   <author>
     <name>Vikram Rao</name>
-    <uri>http://raosvikram.github.io/</uri>
+    <uri>http://raosvikram.github.io</uri>
     
   </author>
   <content type="html">
@@ -334,7 +334,7 @@ repeatedly from a discrete probability distribution? &lt;a href=&quot;#fnref:4&q
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://raosvikram.github.io//tyagaraga/&quot;&gt;Generating Carnatic lyrics&lt;/a&gt; was originally published by Vikram Rao at &lt;a href=&quot;http://raosvikram.github.io/&quot;&gt;Vikram Rao&lt;/a&gt; on November 07, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://raosvikram.github.io/tyagaraga/&quot;&gt;Generating Carnatic lyrics&lt;/a&gt; was originally published by Vikram Rao at &lt;a href=&quot;http://raosvikram.github.io&quot;&gt;Vikram Rao&lt;/a&gt; on November 07, 2015.&lt;/p&gt;
   </content>
 </entry>
 
