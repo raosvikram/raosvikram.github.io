@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+    <meta name="description" content="Vikram Rao Sudarshan&#39;s personal webpage.">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="http://www.vikram.cc/">
+    
+    <meta name="twitter:image" content="http://www.vikram.cc/tn.png">
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Vikram Rao Sudarshan">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Vikram Rao Sudarshan&#39;s personal webpage.">
+    <meta name="og:type" content="website">
+    <meta name="og:url" content="http://www.vikram.cc/">
+    <meta name="og:image" itemprop="image primaryImageOfPage" content="http://www.vikram.cc/tn.png">
+    
+    <title>Vikram Rao Sudarshan</title>
+    <link rel="shortcut icon" href="http://www.vikram.cc/sam.ico" id="favicon">
+    <link rel="stylesheet" href="http://www.vikram.cc/css/style.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    
+    
+
+</head>
+
+</html>
+<body><div class="wrap"><div class="section" id="title">Generating Carnatic lyrics</div><div class="section" id="content">Sat Nov 07, 2015 &#183; 800 words
+
+<div><span id="tag"><a href="http://www.vikram.cc/tags/carnatic">carnatic</a></span><span id="tag"><a href="http://www.vikram.cc/tags/code">code</a></span><span id="tag"><a href="http://www.vikram.cc/tags/personal">personal</a></span></div><hr/>
+
+<h2 id="background">Background</h2>
+
+<p>On a long road trip in the Smoky Mountains in Tennessee, I was stuck behind a
+lady driving at 30 mph on a 55 mph street. Being a law-abiding citizen who shuns
+road rage, I vented out my frustration through a passionate and short
+<a href="https://en.wikipedia.org/wiki/Pallavi">Pallavi</a> in the raga
+<a href="http://www.ragasurabhi.com/carnatic-music/raga/raga--pantuvarali.html">Pantuvarali</a>
+set to a <a href="https://www.youtube.com/watch?v=0C9g3j4ysYc">five beat cycle</a>.</p>
+
+<blockquote>
+<p>nI bAdhamEmiTi ammA, nAku teliyarAda <br />
+What is your problem, lady? I do not comprehend it.</p>
+</blockquote>
+
+<p>While that made for a memorable few hours of improvisational music <sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>, what
+struck me the most was that my friend was impressed with the realistic line I
+had come up with. While coming up with a line appropriate to the situation
+is definitely a hard problem, I felt it shouldn&rsquo;t be very difficult to generate
+coherent, realistic-sounding lines.</p>
+
+<p>In fact, the requirement of making semantic sense could be safely dropped
+because:</p>
+
+<ol>
+<li>said friend didn&rsquo;t speak Telugu and would&rsquo;ve bought into anything that
+sounded authentic.</li>
+<li>the brain is great at filling gaps (or else most jokes wouldn&rsquo;t work), and
+even a moderately creative person will make sense of almost anything.</li>
+</ol>
+
+<p>The rest of this post is about how I went about verifying this hunch.</p>
+
+<h2 id="idea">Idea</h2>
+
+<p>The simplest statistical model that can generate language is an <a href="http://homepages.inf.ed.ac.uk/lzhang10/slm.html">n-gram language
+model</a>. Such a model gobbles up
+text and only remembers how often sequences of words occur together - it doesn&rsquo;t
+&ldquo;understand&rdquo; anything per se, and in addition, is restricted to short sequences
+of words <sup class="footnote-ref" id="fnref:2"><a rel="footnote" href="#fn:2">2</a></sup>.</p>
+
+<p>I should add that natural language processing is a decades-old field and the
+current state of the art consists of vastly more superior methods <sup class="footnote-ref" id="fnref:3"><a rel="footnote" href="#fn:3">3</a></sup>. The flip
+side is that these sophisticated methods require much more data than I had.</p>
+
+<p>The goal was then to train an n-gram language model using as many of Tyagaraja&rsquo;s
+compositions as I could lay my hands on and see what came out.</p>
+
+<h2 id="challenges">Challenges</h2>
+
+<p>A general challenge in using computational methods for classical works is that
+they span multiple centuries and straddle many different cultural eras through
+which the language itself would have evolved. In other words, the amount of data
+available in a particular linguistic &ldquo;era&rdquo; is limited. The issue is worsened in
+our case because <a href="https://en.wikipedia.org/wiki/Carnatic_music">carnatic music</a>
+was composed in multiple languages and the good folks who composed in
+<a href="https://en.wikipedia.org/wiki/Telugu_language">Telugu</a> passed away in the 18th
+century, leaving behind only a precious few thousand compositions.</p>
+
+<p>In addition, there is no standard way of romanizing Indian languages, which
+makes the data hard to clean and also adds to data sparsity (heuristics go only
+so far in cleaning the data, and patience is a scarce resource!)</p>
+
+<h2 id="implementation">Implementation</h2>
+
+<p>I scraped many popular websites hosting carnatic music lyrics and picked the one
+that was easiest to parse and most consistent. I then cleaned up the data a
+little, but did not stem the words.</p>
+
+<p>I only had 700 songs and so didn&rsquo;t prune the vocabulary. There were 13k words,
+30k pairs and 33k triples. The lists of top n-grams will be of no surprise.</p>
+
+<ol>
+<li>Top words: <code>rAma</code>, <code>SrI</code>, <code>tyAgarAja</code></li>
+<li>Top pairs: <code>SrI rAma</code>, <code>tyAgarAja nuta</code>, <code>rAma END</code></li>
+<li>Top triples: <code>tyAgarAja nuta END</code>, <code>tyAgarAja vinuta END</code>, <code>O manasA END</code></li>
+</ol>
+
+<p>I wrote a node.js app which sampled <sup class="footnote-ref" id="fnref:4"><a rel="footnote" href="#fn:4">4</a></sup> from this trigram language model
+50% of the times and from the unigram distribution the rest of the times and
+hosted it on Heroku. I also wanted the generated lyrics to be stored somewhere
+so I eventually made a Twitter bot to tweet out lyrics every 15 minutes.</p>
+
+<h2 id="sample-lyrics">Sample lyrics</h2>
+
+<p>These samples span the full spectrum from profoundly philosophical to hilarious.
+Translations provided courtesy yours truly.</p>
+
+<p>In the Kaliyuga, one can only achieve a cute name.
+<blockquote class="twitter-tweet"><p lang="tl" dir="ltr">sAdhiNcenE O nAma muddu kalilO .</p>&mdash; TyagaRaga (@TyagaRaga) <a href="https://twitter.com/TyagaRaga/status/663444568390504448?ref_src=twsrc%5Etfw">November 8, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+<p>Rama having summoned someone like a tiger.
+<blockquote class="twitter-tweet"><p lang="cs" dir="ltr">vyAghramu candamu pilacina rAma .</p>&mdash; TyagaRaga (@TyagaRaga) <a href="https://twitter.com/TyagaRaga/status/641052354675085312?ref_src=twsrc%5Etfw">September 8, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+<p>Unable to see the swift power, easily wander and cross the town,
+having felt like serving Garuda <sup class="footnote-ref" id="fnref:5"><a rel="footnote" href="#fn:5">5</a></sup>.
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr">vEgamE jUDaka sahajamau tirugu dATi nagara garuDa sEva bhAviNci .</p>&mdash; TyagaRaga (@TyagaRaga) <a href="https://twitter.com/TyagaRaga/status/644877140857606144?ref_src=twsrc%5Etfw">September 18, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+<p>While some of these are too contrived, others are simple and profound. Your help
+is needed in following the twitter bot and liking the good lyrics!</p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>Computer generates lyrics similar to 18th century Indian classical music! Please
+follow!</p>
+
+<p><a class="twitter-timeline" href="https://twitter.com/TyagaRaga"
+data-widget-id="663493534889046016">Tweets by @TyagaRaga</a>
+<script>
+  !function(d,s,id){
+    var js,
+        fjs=d.getElementsByTagName(s)[0],
+        p=/^http:/.test(d.location)?&lsquo;http&rsquo;:&lsquo;https&rsquo;;
+    if(!d.getElementById(id)){
+      js=d.createElement(s);
+      js.id=id;
+      js.src=p+&rdquo;://platform.twitter.com/widgets.js&rdquo;;
+      fjs.parentNode.insertBefore(js,fjs);
+    }
+  }(document,&ldquo;script&rdquo;,&ldquo;twitter-wjs&rdquo;);
+</script></p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">with my musician friend doing the heavy lifting and me tagging along.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+
+<li id="fn:2"><p>once you fix a set of <code>W</code> words as your vocabulary, there can be
+<code>W^k</code> possible sequences of length <code>k</code>, and this quickly becomes too
+large to handle.</p>
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+<li id="fn:3">long short-term memory (LSTM) recurrent neural networks, for example.
+ <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
+
+<li id="fn:4"><p>Do you know of the <a href="http://www.keithschwarz.com/darts-dice-coins/">Alias
+method</a> to efficiently sample
+repeatedly from a discrete probability distribution?</p>
+ <a class="footnote-return" href="#fnref:4"><sup>[return]</sup></a></li>
+<li id="fn:5">humanoid bird in Hindu mythology
+ <a class="footnote-return" href="#fnref:5"><sup>[return]</sup></a></li>
+</ol>
+</div>
+</div><div class="section bottom-menu"><hr/><p><a href="/blog">back</a>
+ &#183;
+<a href="/blog">blog</a>
+
+&#183; <a href="/about">who is vikram?</a>
+&#183; <a href="http://www.vikram.cc/">home</a></p></div><div class="section footer">Vikram Rao Sudarshan&#39;s personal webpage.</div></div></body>

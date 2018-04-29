@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Vikram Rao Sudarshan</title>
+    <link>http://www.vikram.cc/blog/</link>
+    <description>Recent content in Blog on Vikram Rao Sudarshan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.vikram.cc/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cross country road trip</title>
+      <link>http://www.vikram.cc/blog/roadtrip/</link>
+      <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.vikram.cc/blog/roadtrip/</guid>
+      <description>I recently had the wonderful opportunity to drive cross-country from upstate New York to the San Francisco bay area as I moved out west from Cornell. I was alone on the road for three weeks and went to 13 national parks, even sleeping in my car at Yellowstone.
+A lot can be written about the diverse terrain of the USA and the mountainous state highways of Montana with 70+ mph speed limits, but the trip was also a great time to reflect and think about my priorities in life.</description>
+    </item>
+    
+    <item>
+      <title>Generating Carnatic lyrics</title>
+      <link>http://www.vikram.cc/blog/tyagaraga/</link>
+      <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.vikram.cc/blog/tyagaraga/</guid>
+      <description>Background On a long road trip in the Smoky Mountains in Tennessee, I was stuck behind a lady driving at 30 mph on a 55 mph street. Being a law-abiding citizen who shuns road rage, I vented out my frustration through a passionate and short Pallavi in the raga Pantuvarali set to a five beat cycle.
+ nI bAdhamEmiTi ammA, nAku teliyarAda What is your problem, lady? I do not comprehend it.</description>
+    </item>
+    
+  </channel>
+</rss>
