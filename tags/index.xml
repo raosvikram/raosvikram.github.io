@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Vikram Rao Sudarshan</title>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Carnatic</title>
+      <title>carnatic</title>
       <link>http://www.vikram.cc/tags/carnatic/</link>
       <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Code</title>
+      <title>code</title>
       <link>http://www.vikram.cc/tags/code/</link>
       <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
       
@@ -30,9 +30,9 @@
     </item>
     
     <item>
-      <title>Personal</title>
+      <title>personal</title>
       <link>http://www.vikram.cc/tags/personal/</link>
-      <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.vikram.cc/tags/personal/</guid>
       <description></description>

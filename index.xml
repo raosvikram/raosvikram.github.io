@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vikram Rao Sudarshan</title>
@@ -17,18 +17,8 @@
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.vikram.cc/about/</guid>
-      <description>I am a Software Engineer in the Research and Machine Intelligence team at Google. Before that, I worked on Timeline ranking at Twitter, contributing several key pieces to Twitter&amp;rsquo;s shift from a reverse-chronological timeline to a relevance-ranked feed.
+      <description>I am a Software Engineer at GoogleAI working on various applied NLP problems. Before that, I worked on Timeline ranking at Twitter, contributing several key pieces to Twitter&amp;rsquo;s shift from a reverse-chronological timeline to a relevance-ranked feed.
 In a previous life, I worked on applied NLP in the CS PhD program at Cornell , which I discontinued with an MS after two years. Even before, I was a CSE undergraduate at IIT Madras where I was generously supported by the Aditya Birla Scholarship and OPJEMS.</description>
-    </item>
-    
-    <item>
-      <title>Cross country road trip</title>
-      <link>http://www.vikram.cc/blog/roadtrip/</link>
-      <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.vikram.cc/blog/roadtrip/</guid>
-      <description>I recently had the wonderful opportunity to drive cross-country from upstate New York to the San Francisco bay area as I moved out west from Cornell. I was alone on the road for three weeks and went to 13 national parks, even sleeping in my car at Yellowstone.
-A lot can be written about the diverse terrain of the USA and the mountainous state highways of Montana with 70+ mph speed limits, but the trip was also a great time to reflect and think about my priorities in life.</description>
     </item>
     
     <item>
@@ -38,7 +28,8 @@ A lot can be written about the diverse terrain of the USA and the mountainous st
       
       <guid>http://www.vikram.cc/blog/tyagaraga/</guid>
       <description>Background On a long road trip in the Smoky Mountains in Tennessee, I was stuck behind a lady driving at 30 mph on a 55 mph street. Being a law-abiding citizen who shuns road rage, I vented out my frustration through a passionate and short Pallavi in the raga Pantuvarali set to a five beat cycle.
- nI bAdhamEmiTi ammA, nAku teliyarAda What is your problem, lady? I do not comprehend it.</description>
+ nI bAdhamEmiTi ammA, nAku teliyarAda \
+What is your problem, lady? I do not comprehend it.</description>
     </item>
     
   </channel>
