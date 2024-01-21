@@ -2,41 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Vikram Rao Sudarshan</title>
-    <link>http://www.vikram.cc/tags/</link>
+    <link>https://www.vikram.cc/tags/</link>
     <description>Recent content in Tags on Vikram Rao Sudarshan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://www.vikram.cc/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>carnatic</title>
-      <link>http://www.vikram.cc/tags/carnatic/</link>
-      <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.vikram.cc/tags/carnatic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code</title>
-      <link>http://www.vikram.cc/tags/code/</link>
-      <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.vikram.cc/tags/code/</guid>
-      <description></description>
-    </item>
-    
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.vikram.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>personal</title>
-      <link>http://www.vikram.cc/tags/personal/</link>
-      <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.vikram.cc/tags/personal/</guid>
+      <link>https://www.vikram.cc/tags/personal/</link>
+      <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.vikram.cc/tags/personal/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>carnatic</title>
+      <link>https://www.vikram.cc/tags/carnatic/</link>
+      <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.vikram.cc/tags/carnatic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>code</title>
+      <link>https://www.vikram.cc/tags/code/</link>
+      <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.vikram.cc/tags/code/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
