@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Vikram Rao Sudarshan</title>
-    <link>https://www.vikram.cc/tags/</link>
+    <link>http://www.vikram.cc/tags/</link>
     <description>Recent content in Tags on Vikram Rao Sudarshan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Nov 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.vikram.cc/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.vikram.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>personal</title>
-      <link>https://www.vikram.cc/tags/personal/</link>
+      <link>http://www.vikram.cc/tags/personal/</link>
       <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.vikram.cc/tags/personal/</guid>
+      <guid>http://www.vikram.cc/tags/personal/</guid>
       <description></description>
     </item>
     <item>
       <title>carnatic</title>
-      <link>https://www.vikram.cc/tags/carnatic/</link>
+      <link>http://www.vikram.cc/tags/carnatic/</link>
       <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.vikram.cc/tags/carnatic/</guid>
+      <guid>http://www.vikram.cc/tags/carnatic/</guid>
       <description></description>
     </item>
     <item>
       <title>code</title>
-      <link>https://www.vikram.cc/tags/code/</link>
+      <link>http://www.vikram.cc/tags/code/</link>
       <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.vikram.cc/tags/code/</guid>
+      <guid>http://www.vikram.cc/tags/code/</guid>
       <description></description>
     </item>
   </channel>

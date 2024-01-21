@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>code on Vikram Rao Sudarshan</title>
-    <link>https://www.vikram.cc/tags/code/</link>
+    <link>http://www.vikram.cc/tags/code/</link>
     <description>Recent content in code on Vikram Rao Sudarshan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Nov 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.vikram.cc/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.vikram.cc/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generating Carnatic lyrics</title>
-      <link>https://www.vikram.cc/blog/tyagaraga/</link>
+      <link>http://www.vikram.cc/blog/tyagaraga/</link>
       <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.vikram.cc/blog/tyagaraga/</guid>
+      <guid>http://www.vikram.cc/blog/tyagaraga/</guid>
       <description>Background On a long road trip in the Smoky Mountains in Tennessee, I was stuck behind a lady driving at 30 mph on a 55 mph street. Being a law-abiding citizen who shuns road rage, I vented out my frustration through a passionate and short Pallavi in the raga Pantuvarali set to a five beat cycle.&#xA;nI bAdhamEmiTi ammA, nAku teliyarAda \ What is your problem, lady? I do not comprehend it.</description>
     </item>
   </channel>
